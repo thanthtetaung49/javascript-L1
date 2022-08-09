@@ -27,17 +27,50 @@ h3{
     background-color: #bbb;
 }
 
-.progress-bar {
-    width: 0;
+#progressbar {
+    width: 0%;
     height: 5px;
     background-color: red;
 }
 
 .content{
     width: 80%;
-    
     padding: 50px;
     margin: 100px auto;
 }
+
+/* @media print { */
+    /* *{ */
+        /* visibility: hidden; */
+    /* } */
+
+    /* .printarea * { */
+        /* visibility: visible; */
+    /* } */
+
+    /* .header { */
+        /* position: static; */
+    /* } */
+
+    /* .pagebreak { */
+        /* page-break-after: always; */
+        /* page-break-before: always; */
+    /* }     */
+/* } */
+
+/* @page{ */
+    /* size: portrait; */
+    /* size: landscape; */
+
+    /* size: auto; */
+
+    /* size: A4; */
+    /* size: A4 landscape; */
+
+    /* size: legal; */
+    /* size: 6in 4in; */
+
+    /* margin: 0; */
+/* } */
 
 /* 8JS */
