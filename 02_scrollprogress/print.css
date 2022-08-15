@@ -12,6 +12,11 @@ body {
 
 .header {
     position: static;
+    -webkit-print-color-adjust: exact;
+}
+
+.content{
+    -webkit-print-color-adjust: exact;
 }
 
 @page {

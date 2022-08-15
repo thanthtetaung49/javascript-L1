@@ -17,6 +17,10 @@ body {
     top: 0;
 }
 
+.header {
+    background-color: skyblue;
+}
+
 h3{
     text-align: center;
 }
@@ -33,7 +37,14 @@ h3{
     background-color: red;
 }
 
+.print-btn {
+    cursor: pointer;
+}
+
 .content{
+    /* background-color: red; */
+    background: linear-gradient(red, orange);
+
     width: 80%;
     padding: 50px;
     margin: 100px auto;
